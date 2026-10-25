@@ -46,7 +46,7 @@
         />
     <Button
         android:id="@+id/submit"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Login"
         android:paddingVertical="10dp"
@@ -58,7 +58,7 @@
         />
     <Button
         android:id="@+id/back_role_selection"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Back to Role Selection"
         android:paddingVertical="10dp"
