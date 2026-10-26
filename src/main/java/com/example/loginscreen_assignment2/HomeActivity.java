@@ -1,6 +1,7 @@
 package com.example.loginscreen_assignment2;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,8 @@ public class HomeActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        String email = getIntent().getStringExtra("email");
+        TextView welcome = findViewById(R.id.welcome);
+        welcome.setText("Welcome  " + email);
     }
 }

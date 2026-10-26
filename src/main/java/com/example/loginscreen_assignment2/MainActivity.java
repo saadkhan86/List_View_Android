@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
             Toast.makeText(this, "Login as " + role + " successful", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+            intent.putExtra("email",primaryKey);
             startActivity(intent);
             finish();
         });
